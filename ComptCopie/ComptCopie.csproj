@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>ComptCopie</RootNamespace>
+    <AssemblyName>AnonymCopie</AssemblyName>
+    <Product>AnonymCopie</Product>
+    <Description>Compostage des copies d'examen</Description>
+    <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\logo.png" LogicalName="logo.png" />
+    <EmbeddedResource Include="Assets\logo.ico" LogicalName="logo.ico" />
+  </ItemGroup>
+
+</Project>

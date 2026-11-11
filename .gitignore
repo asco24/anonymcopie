@@ -1,0 +1,9 @@
+# Sorties de compilation .NET
+bin/
+obj/
+publish/
+*.user
+.vs/
+
+# Notes locales (chemins internes)
+CLAUDE.local.md
